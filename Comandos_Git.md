@@ -65,3 +65,25 @@ Listar los commits por autor:
 Ver los cambios en el directorio:
 
 `git status`
+
+## Comandos Básicos III
+
+Ver diferencia  entre ficheros en el directorio y el repositorio de git:
+
+`git diff`
+
+Ver diferencia entre ficheros en el *staging* y el repositorio:
+
+`git diff --stagged`
+
+Eliminar archivos:
+
+`git rm archivo`
+
+`git commit -m "Mensaje"`
+
+Mover o renombrar archivos:
+
+`git mv antiguo nuevo`
+
+`git commit -m "Mensaje"`
